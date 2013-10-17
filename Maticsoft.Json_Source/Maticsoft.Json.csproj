@@ -1,0 +1,163 @@
+<VisualStudioProject>
+  <CSHARP ProjectType="Local" ProductVersion="7.10.3077" SchemaVersion="2.0" ProjectGuid="5F85698E-4242-41FA-A1D8-626D003C760E">
+    <Build>
+      <Settings ApplicationIcon="" AssemblyKeyContainerName="" AssemblyName="Maticsoft.Json" AssemblyOriginatorKeyFile="" DefaultClientScript="JScript" DefaultHTMLPageLayout="Grid" DefaultTargetSchema="IE50" DelaySign="false" OutputType="Library" PreBuildEvent="" PostBuildEvent="" RootNamespace="Maticsoft.Json" RunPostBuildEvent="OnBuildSuccess" StartupObject="">
+        <Config Name="Debug" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="DEBUG;TRACE" DocumentationFile="" DebugSymbols="true" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="false" OutputPath="bin\Debug\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+        <Config Name="Release" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="TRACE" DocumentationFile="" DebugSymbols="false" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="true" OutputPath="bin\Release\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+      </Settings>
+      <References>
+        <Reference Name="mscorlib" AssemblyName="mscorlib" HintPath="mscorlib.dll" />
+        <Reference Name="System.Core" AssemblyName="System.Core" HintPath="System.Core.dll" />
+        <Reference Name="System" AssemblyName="System" HintPath="System.dll" />
+        <Reference Name="System.Data" AssemblyName="System.Data" HintPath="System.Data.dll" />
+        <Reference Name="System.Xml" AssemblyName="System.Xml" HintPath="System.Xml.dll" />
+        <Reference Name="System.Web" AssemblyName="System.Web" HintPath="System.Web.dll" />
+        <Reference Name="System.Numerics" AssemblyName="System.Numerics" HintPath="System.Numerics.dll" />
+      </References>
+    </Build>
+    <Files>
+      <Include>
+        <File RelPath="AssemblyInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\UnixTime.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\JsonWriter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\JsonWriterBase.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\JsonRecorder.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\JsonReader.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\JsonReaderBase.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion\IJsonImportable.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion\IJsonExportable.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\JsonObject.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion\IExporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\ExporterBase.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\TupleExporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\StringExporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion\IImporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\ImporterBase.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\ImportAwareImporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\ListImporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\CollectionImporter!3.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\CollectionImporter!2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\JsonMember.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\JsonImportingWriter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion\ImportContext.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\DataTableExporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\JsonWriterBracket.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\JsonTextWriter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\JsonTextReader.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\JsonNull.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\JsonBoolean.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion\JsonExportAttribute.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\ExpandoObjectImporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\DbDataRecordExporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\DataSetExporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\ByteArrayExporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\JsonTokenWriterBase.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\JsonString.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Configuration\ListSectionHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Configuration\TypeListSectionHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion\ExporterListSectionHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\NumberExporterBase.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\ByteExporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\Int16Exporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\Int32Exporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\Int64Exporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\SingleExporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\DoubleExporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\DecimalExporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\BigIntegerExporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\GuidImporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\BufferedCharReader.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\TypeResolutionHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\TypeResolution.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\JsonTokenClass.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\BooleanImporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\DataRowExporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Reflection\Reflector.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion\IObjectMemberImporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\NullableImporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\NameValueCollectionExporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\DictionaryExporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\ControlExporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion\CustomTypeDescriptor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion\IPropertyImpl.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion\IPropertyCustomization.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\EnumerableExporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\ComponentImporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\Mask.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\DictionaryHelper.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\NamedJsonBuffer.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\JsonBuffer.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion\INonObjectMemberImporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion\ImporterListSectionHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\TupleImporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\StringImporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\JsonBufferExporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\EnumImporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\DateTimeExporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Configuration\DictionarySectionHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\JsonNumber.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Diagnostics\DebugString.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion\JsonImportHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion\JsonExportHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion\ExportContextFactoryHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion\ImportContextFactoryHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion\JsonConvert.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion\ExportContext.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\JsonTextReaderFactoryHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\JsonTextWriterFactoryHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\JsonText.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\InvalidMemberException.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Collections\KeyedCollection.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion\ImporterCollection.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\ByteArrayImporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\JsonBufferStorage.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Dynamic\Option.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Dynamic\Option!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Dynamic\DynamicObjectRuntime!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Dynamic\DynamicMetaObject!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\UriImporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\NumberImporterBase.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\ByteImporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\Int16Importer.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\Int32Importer.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\Int64Importer.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\SingleImporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\DoubleImporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\DecimalImporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\BigIntegerImporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\ExpandoObjectExporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\DataRowViewExporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\ArrayImporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\JsonException.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\BooleanExporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\JsonToken.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion\ExporterCollection.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\NameValueCollectionImporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\JsonNumberExporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\ExportAwareExporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\DictionaryImporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\DictionaryImporter!2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\BooleanObject.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\JsonBufferWriter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\JsonBufferReader.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\JsonArray.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json\EmptyJsonWriter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion\NamingConvention.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion\IPropertyDescriptorCustomization.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion\JsonMemberNamingConventionAttribute.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion\JsonMemberNameAttribute.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion\JsonIgnoreAttribute.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion\IObjectMemberExporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\NullableExporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion\AnyType.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion\JsonDefaultValueAttribute.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\JsonBufferImporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\DateTimeImporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\DataViewExporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\ComponentExporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Json.Conversion.Converters\AnyImporter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="_PrivateImplementationDetails_{8DF6AF93-B5AF-4EC8-BBAA-F26561D45071}.cs" SubType="Code" BuildAction="Compile" />
+      </Include>
+    </Files>
+  </CSHARP>
+</VisualStudioProject>

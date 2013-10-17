@@ -1,0 +1,97 @@
+<VisualStudioProject>
+  <CSHARP ProjectType="Local" ProductVersion="7.10.3077" SchemaVersion="2.0" ProjectGuid="30963CCE-65E9-414B-AFDE-EC8903C43641">
+    <Build>
+      <Settings ApplicationIcon="" AssemblyKeyContainerName="" AssemblyName="Microsoft.Practices.ObjectBuilder" AssemblyOriginatorKeyFile="" DefaultClientScript="JScript" DefaultHTMLPageLayout="Grid" DefaultTargetSchema="IE50" DelaySign="false" OutputType="Library" PreBuildEvent="" PostBuildEvent="" RootNamespace="Microsoft.Practices.ObjectBuilder" RunPostBuildEvent="OnBuildSuccess" StartupObject="">
+        <Config Name="Debug" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="DEBUG;TRACE" DocumentationFile="" DebugSymbols="true" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="false" OutputPath="bin\Debug\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+        <Config Name="Release" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="TRACE" DocumentationFile="" DebugSymbols="false" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="true" OutputPath="bin\Release\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+      </Settings>
+      <References>
+        <Reference Name="mscorlib" AssemblyName="mscorlib" HintPath="mscorlib.dll" />
+        <Reference Name="System" AssemblyName="System" HintPath="System.dll" />
+      </References>
+    </Build>
+    <Files>
+      <Include>
+        <File RelPath="AssemblyInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\IBuilderPolicy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\ICreationPolicy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\DefaultCreationPolicy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\IReflectionMemberInfo!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\ReflectionMemberInfo!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\IBuilderTracePolicy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\BuilderTraceSourcePolicy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\BuilderStage.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\DependencyResolutionLocatorKey.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\StrategyList!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\IBuilderStrategy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\BuilderStrategy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\ReflectionStrategy!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\PropertyReflectionStrategy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\IMethodPolicy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\ParameterAttribute.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\DependencyAttribute.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\ILifetimeContainer.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\IBuilder!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\BuilderBase!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\Builder.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\IParameter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\KnownTypeParameter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\DependencyParameter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\SingletonStrategy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\DependencyResolver.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\IPropertySetterPolicy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\CreateNewAttribute.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\IPropertySetterInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\PropertySetterInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\ITypeMappingPolicy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\PropertySetterPolicy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\IMethodCallInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder.Properties\Resources.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\IBuilderConfigurator!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\CreationParameter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\IReadableLocator.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\ReadableLocator.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\Guard.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\TypeMappingStrategy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\CreationStrategy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\IReadWriteLocator.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\MethodPolicy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\ConstructorReflectionStrategy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\InjectionMethodAttribute.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\InvalidAttributeException.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\DependencyMissingException.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\IBuilderContext.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\BuilderContext.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\LookupParameter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\ReadOnlyLocator.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\IBuilderStrategyChain.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\MethodExecutionStrategy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\MethodReflectionStrategy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\IncompatibleTypesException.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\TypeMappingPolicy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\ReadWriteLocator.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\Locator.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\MethodCallInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\BuilderAwareStrategy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\InjectionConstructorAttribute.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\PropertySetterStrategy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\LifetimeContainer.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\PolicyList.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\IBuilderAware.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\WeakRefDictionary!2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\CloneParameter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\BuilderStrategyChain.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\LifetimeEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\BuilderPolicyKey.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\ValueParameter!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\ValueParameter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\ISingletonPolicy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\SearchMode.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\NotPresentBehavior.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\SingletonPolicy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder\ConstructorPolicy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.ObjectBuilder.Properties.Resources.resx" BuildAction="EmbeddedResource" />
+      </Include>
+    </Files>
+  </CSHARP>
+</VisualStudioProject>

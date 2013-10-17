@@ -1,0 +1,76 @@
+<VisualStudioProject>
+  <CSHARP ProjectType="Local" ProductVersion="7.10.3077" SchemaVersion="2.0" ProjectGuid="6298A4D1-C72B-4905-B283-FA2A4E5DF583">
+    <Build>
+      <Settings ApplicationIcon="" AssemblyKeyContainerName="" AssemblyName="Maticsoft.ViewModel" AssemblyOriginatorKeyFile="" DefaultClientScript="JScript" DefaultHTMLPageLayout="Grid" DefaultTargetSchema="IE50" DelaySign="false" OutputType="Library" PreBuildEvent="" PostBuildEvent="" RootNamespace="Maticsoft.ViewModel" RunPostBuildEvent="OnBuildSuccess" StartupObject="">
+        <Config Name="Debug" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="DEBUG;TRACE" DocumentationFile="" DebugSymbols="true" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="false" OutputPath="bin\Debug\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+        <Config Name="Release" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="TRACE" DocumentationFile="" DebugSymbols="false" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="true" OutputPath="bin\Release\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+      </Settings>
+      <References>
+        <Reference Name="mscorlib" AssemblyName="mscorlib" HintPath="mscorlib.dll" />
+        <Reference Name="Maticsoft.Model" AssemblyName="Maticsoft.Model" HintPath="Maticsoft.Model.dll" />
+        <Reference Name="System" AssemblyName="System" HintPath="System.dll" />
+        <Reference Name="Maticsoft.Payment" AssemblyName="Maticsoft.Payment" HintPath="Maticsoft.Payment.dll" />
+        <Reference Name="MvcPager" AssemblyName="MvcPager" HintPath="MvcPager.dll" />
+        <Reference Name="System.Web.Mvc" AssemblyName="System.Web.Mvc" HintPath="System.Web.Mvc.dll" />
+        <Reference Name="System.ComponentModel.DataAnnotations" AssemblyName="System.ComponentModel.DataAnnotations" HintPath="System.ComponentModel.DataAnnotations.dll" />
+        <Reference Name="System.Core" AssemblyName="System.Core" HintPath="System.Core.dll" />
+        <Reference Name="Maticsoft.Common" AssemblyName="Maticsoft.Common" HintPath="Maticsoft.Common.dll" />
+      </References>
+    </Build>
+    <Files>
+      <Include>
+        <File RelPath="AssemblyInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.Shop\PayAndShip.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.Shop\ProductModel.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.Shop\SalesModel.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.SNS\PhotoList.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.SNS\ImageMessage.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.SNS\CollectImages.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.SNS\PhotoAlbum.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.SNS\GroupSearch.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.SNS\Favourite.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.Shop\SaleRecord.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.Shop\ProductComment.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.SNS\GroupIndex.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.SNS\GroupInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.SNS\RegisterGroup.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.SNS\UpdateGroup.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.SNS\Stars.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.SNS\ProfileLeft.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.SNS\SelfRight.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.SNS\PostsPage.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.Shop\FavoProdModel.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.CMS\AccountModels.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.CMS\LogOnModel.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.CMS\RegisterModel.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel\ViewModelBase.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.SNS\TargetDetail.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.SNS\Star.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.SNS\StarType.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.SNS\StarRank.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.SNS\ViewStar.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.SNS\ProductCategory.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.SNS\SonCategory.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.SNS\CType.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.Shop\ProductListModel.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.Shop\ShippingAddressModel.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.Shop\ProductSKUModel.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.Shop\SortedListAttribute.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.UserCenter\UserBindList.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.SNS\TopicReply.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.SNS\Products.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.SNS\AlbumIndex.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.SNS\CreateAlbum.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.SNS\ChangePasswordModel.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.SNS\LogOnModel.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.SNS\RegisterModel.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.CMS\Photo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.SNS\Posts.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.SNS\VodeoList.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.Shop\ChangePasswordModel.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.Shop\LogOnModel.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewModel.Shop\RegisterModel.cs" SubType="Code" BuildAction="Compile" />
+      </Include>
+    </Files>
+  </CSHARP>
+</VisualStudioProject>

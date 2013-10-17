@@ -1,0 +1,66 @@
+namespace Maticsoft.TaoBao.Request
+{
+    using Maticsoft.TaoBao;
+    using Maticsoft.TaoBao.Util;
+    using System;
+    using System.Collections.Generic;
+    using System.Runtime.CompilerServices;
+
+    public class RefundRefuseRequest : ITopUploadRequest<RefundRefuseResponse>, ITopRequest<RefundRefuseResponse>
+    {
+        private IDictionary<string, string> otherParameters;
+
+        public void AddOtherParameter(string key, string value)
+        {
+            if (this.otherParameters == null)
+            {
+                this.otherParameters = new TopDictionary();
+            }
+            this.otherParameters.Add(key, value);
+        }
+
+        public string GetApiName()
+        {
+            return "taobao.refund.refuse";
+        }
+
+        public IDictionary<string, FileItem> GetFileParameters()
+        {
+            IDictionary<string, FileItem> dictionary = new Dictionary<string, FileItem>();
+            dictionary.Add("refuse_proof", this.RefuseProof);
+            return dictionary;
+        }
+
+        public IDictionary<string, string> GetParameters()
+        {
+            TopDictionary dictionary = new TopDictionary();
+            dictionary.Add("oid", this.Oid);
+            dictionary.Add("refund_id", this.RefundId);
+            dictionary.Add("refuse_message", this.RefuseMessage);
+            dictionary.Add("tid", this.Tid);
+            dictionary.AddAll(this.otherParameters);
+            return dictionary;
+        }
+
+        public void Validate()
+        {
+            RequestValidator.ValidateRequired("oid", this.Oid);
+            RequestValidator.ValidateRequired("refund_id", this.RefundId);
+            RequestValidator.ValidateRequired("refuse_message", this.RefuseMessage);
+            RequestValidator.ValidateMaxLength("refuse_message", this.RefuseMessage, 200);
+            RequestValidator.ValidateMaxLength("refuse_proof", this.RefuseProof, 0x1fbd0);
+            RequestValidator.ValidateRequired("tid", this.Tid);
+        }
+
+        public long? Oid { get; set; }
+
+        public long? RefundId { get; set; }
+
+        public string RefuseMessage { get; set; }
+
+        public FileItem RefuseProof { get; set; }
+
+        public long? Tid { get; set; }
+    }
+}
+

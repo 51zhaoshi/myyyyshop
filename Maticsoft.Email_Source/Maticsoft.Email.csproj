@@ -1,0 +1,52 @@
+<VisualStudioProject>
+  <CSHARP ProjectType="Local" ProductVersion="7.10.3077" SchemaVersion="2.0" ProjectGuid="CA2E2889-E461-44A1-A848-18F3337F508C">
+    <Build>
+      <Settings ApplicationIcon="" AssemblyKeyContainerName="" AssemblyName="Maticsoft.Email" AssemblyOriginatorKeyFile="" DefaultClientScript="JScript" DefaultHTMLPageLayout="Grid" DefaultTargetSchema="IE50" DelaySign="false" OutputType="Library" PreBuildEvent="" PostBuildEvent="" RootNamespace="Maticsoft.Email" RunPostBuildEvent="OnBuildSuccess" StartupObject="">
+        <Config Name="Debug" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="DEBUG;TRACE" DocumentationFile="" DebugSymbols="true" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="false" OutputPath="bin\Debug\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+        <Config Name="Release" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="TRACE" DocumentationFile="" DebugSymbols="false" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="true" OutputPath="bin\Release\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+      </Settings>
+      <References>
+        <Reference Name="mscorlib" AssemblyName="mscorlib" HintPath="mscorlib.dll" />
+        <Reference Name="System" AssemblyName="System" HintPath="System.dll" />
+        <Reference Name="System.Web" AssemblyName="System.Web" HintPath="System.Web.dll" />
+        <Reference Name="System.Data" AssemblyName="System.Data" HintPath="System.Data.dll" />
+        <Reference Name="System.Xml" AssemblyName="System.Xml" HintPath="System.Xml.dll" />
+        <Reference Name="MySql.Data" AssemblyName="MySql.Data" HintPath="MySql.Data.dll" />
+        <Reference Name="Maticsoft.DBUtility" AssemblyName="Maticsoft.DBUtility" HintPath="Maticsoft.DBUtility.dll" />
+        <Reference Name="Maticsoft.Common" AssemblyName="Maticsoft.Common" HintPath="Maticsoft.Common.dll" />
+      </References>
+    </Build>
+    <Files>
+      <Include>
+        <File RelPath="AssemblyInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Email.IDAL\IEmailQueueProvider.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Email.MySqlDAL\EmailQueueProvider.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Email.IDAL\IMailConfig.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Email.MySqlDAL\MailConfig.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Email.Model\EmailQueue.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Email.EmailJob\Job.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Email.SQLServerDAL\MailConfig.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Email.EmailJob\Jobs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Email.BLL\EmailQueue.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Email.EmailJob\IJob.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Email.BLL\EmailQueueProvider.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Email.EmailJob.Configuration\MsConfiguration.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Email.EmailJob.Configuration\MsApplication.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Email.EmailJob.Configuration\ApplicationType.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Email.EmailJob.Configuration\Provider.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Email.IDAL\IEmailQueue.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Email.MySqlDAL\EmailQueue.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Email.Model\MailConfig.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Email.SQLServerDAL\EmailQueue.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Email\EmailManage.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Email.EmailJob.Configuration\DataCache.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Email.BLL\MailConfig.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Email.Model\EmailTemplate.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Email.EmailJob\EmailJobSevice.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Email.EmailJob\EmailJob.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Email.EmailJob.Configuration\AppLocation.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Email.SQLServerDAL\EmailQueueProvider.cs" SubType="Code" BuildAction="Compile" />
+      </Include>
+    </Files>
+  </CSHARP>
+</VisualStudioProject>

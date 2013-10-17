@@ -1,0 +1,23 @@
+// Assembly Microsoft.Practices.EnterpriseLibrary.Data, Version 3.1.0.0
+
+[assembly: System.Reflection.AssemblyVersion("3.1.0.0")]
+[assembly: System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute.DebuggingModes.IgnoreSymbolStoreSequencePoints | System.Diagnostics.DebuggableAttribute.DebuggingModes.Default)]
+[assembly: System.Runtime.ConstrainedExecution.ReliabilityContract(System.Runtime.ConstrainedExecution.Consistency.WillNotCorruptState, System.Runtime.ConstrainedExecution.Cer.None)]
+[assembly: System.Reflection.AssemblyProduct("Microsoft Enterprise Library for .NET")]
+[assembly: System.Runtime.CompilerServices.CompilationRelaxations(8)]
+[assembly: System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)]
+[assembly: Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability.ConfigurationSectionManageabilityProvider("oracleConnectionSettings", typeof(Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Manageability.OracleConnectionSettingsManageabilityProvider))]
+[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.Practices.EnterpriseLibrary.Data.Tests")]
+[assembly: System.Management.Instrumentation.Instrumented(@"root\EnterpriseLibrary")]
+[assembly: System.Reflection.AssemblyDescription("Enterprise Library Data Access Application Block")]
+[assembly: System.Reflection.AssemblyTitle("Enterprise Library Data Access Application Block")]
+[assembly: System.CLSCompliant(true)]
+[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("EnterpriseLibrary.Data.Configuration.Manageability.Tests")]
+[assembly: Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability.ConfigurationSectionManageabilityProvider("dataConfiguration", typeof(Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Manageability.DatabaseSettingsManageabilityProvider))]
+[assembly: Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability.ConfigurationSectionManageabilityProvider("connectionStrings", typeof(Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Manageability.ConnectionStringsManageabilityProvider))]
+[assembly: System.Reflection.AssemblyCopyright("")]
+[assembly: System.Reflection.AssemblyCompany("Microsoft Corporation")]
+[assembly: System.Reflection.AssemblyTrademark("")]
+[assembly: System.Reflection.AssemblyConfiguration("Release")]
+[assembly: System.Security.Permissions.SecurityPermission(System.Security.Permissions.SecurityAction.RequestMinimum)]
+

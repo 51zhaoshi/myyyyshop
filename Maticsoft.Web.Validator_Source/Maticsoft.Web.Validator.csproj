@@ -1,0 +1,32 @@
+<VisualStudioProject>
+  <CSHARP ProjectType="Local" ProductVersion="7.10.3077" SchemaVersion="2.0" ProjectGuid="0DB94986-D3C4-4D0D-9916-E826B239CDFF">
+    <Build>
+      <Settings ApplicationIcon="" AssemblyKeyContainerName="" AssemblyName="Maticsoft.Web.Validator" AssemblyOriginatorKeyFile="" DefaultClientScript="JScript" DefaultHTMLPageLayout="Grid" DefaultTargetSchema="IE50" DelaySign="false" OutputType="Library" PreBuildEvent="" PostBuildEvent="" RootNamespace="Maticsoft.Web.Validator" RunPostBuildEvent="OnBuildSuccess" StartupObject="">
+        <Config Name="Debug" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="DEBUG;TRACE" DocumentationFile="" DebugSymbols="true" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="false" OutputPath="bin\Debug\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+        <Config Name="Release" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="TRACE" DocumentationFile="" DebugSymbols="false" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="true" OutputPath="bin\Release\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+      </Settings>
+      <References>
+        <Reference Name="mscorlib" AssemblyName="mscorlib" HintPath="mscorlib.dll" />
+        <Reference Name="System.Web" AssemblyName="System.Web" HintPath="System.Web.dll" />
+        <Reference Name="System" AssemblyName="System" HintPath="System.dll" />
+      </References>
+    </Build>
+    <Files>
+      <Include>
+        <File RelPath="AssemblyInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Web.Validator\ClientValidator.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Web.Validator\CompareClientValidator.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Web.Validator\DropDownListClientValidator.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Web.Validator\ClientValidatorCollection.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Web.Validator\InputMoneyClientValidator.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Web.Validator\ValidatorContainer.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Web.Validator\NumberRangeClientValidator.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Web.Validator\ValidateTarget.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Web.Validator\MoneyRangeClientValidator.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Web.Validator\InputStringClientValidator.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Web.Validator\InputNumberClientValidator.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Web.Validator\ValidateRenderControl.cs" SubType="Code" BuildAction="Compile" />
+      </Include>
+    </Files>
+  </CSHARP>
+</VisualStudioProject>

@@ -1,0 +1,24 @@
+<VisualStudioProject>
+  <CSHARP ProjectType="Local" ProductVersion="7.10.3077" SchemaVersion="2.0" ProjectGuid="0414CA51-AE76-4901-9256-6E7054BE8A04">
+    <Build>
+      <Settings ApplicationIcon="" AssemblyKeyContainerName="" AssemblyName="Maticsoft.ViewEngine" AssemblyOriginatorKeyFile="" DefaultClientScript="JScript" DefaultHTMLPageLayout="Grid" DefaultTargetSchema="IE50" DelaySign="false" OutputType="Library" PreBuildEvent="" PostBuildEvent="" RootNamespace="Maticsoft.ViewEngine" RunPostBuildEvent="OnBuildSuccess" StartupObject="">
+        <Config Name="Debug" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="DEBUG;TRACE" DocumentationFile="" DebugSymbols="true" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="false" OutputPath="bin\Debug\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+        <Config Name="Release" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="TRACE" DocumentationFile="" DebugSymbols="false" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="true" OutputPath="bin\Release\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+      </Settings>
+      <References>
+        <Reference Name="mscorlib" AssemblyName="mscorlib" HintPath="mscorlib.dll" />
+        <Reference Name="System.Web.Mvc" AssemblyName="System.Web.Mvc" HintPath="System.Web.Mvc.dll" />
+        <Reference Name="Maticsoft.Components" AssemblyName="Maticsoft.Components" HintPath="Maticsoft.Components.dll" />
+        <Reference Name="System.Web" AssemblyName="System.Web" HintPath="System.Web.dll" />
+        <Reference Name="Maticsoft.Common" AssemblyName="Maticsoft.Common" HintPath="Maticsoft.Common.dll" />
+      </References>
+    </Build>
+    <Files>
+      <Include>
+        <File RelPath="AssemblyInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewEngine\Analytic.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ViewEngine\ThemeViewEngine.cs" SubType="Code" BuildAction="Compile" />
+      </Include>
+    </Files>
+  </CSHARP>
+</VisualStudioProject>

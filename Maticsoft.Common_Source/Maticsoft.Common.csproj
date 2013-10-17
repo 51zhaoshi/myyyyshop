@@ -1,0 +1,127 @@
+<VisualStudioProject>
+  <CSHARP ProjectType="Local" ProductVersion="7.10.3077" SchemaVersion="2.0" ProjectGuid="23D9D801-8C3B-41DD-8AD1-7392DA9F7A4C">
+    <Build>
+      <Settings ApplicationIcon="" AssemblyKeyContainerName="" AssemblyName="Maticsoft.Common" AssemblyOriginatorKeyFile="" DefaultClientScript="JScript" DefaultHTMLPageLayout="Grid" DefaultTargetSchema="IE50" DelaySign="false" OutputType="Library" PreBuildEvent="" PostBuildEvent="" RootNamespace="Maticsoft.Common" RunPostBuildEvent="OnBuildSuccess" StartupObject="">
+        <Config Name="Debug" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="DEBUG;TRACE" DocumentationFile="" DebugSymbols="true" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="false" OutputPath="bin\Debug\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+        <Config Name="Release" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="TRACE" DocumentationFile="" DebugSymbols="false" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="true" OutputPath="bin\Release\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+      </Settings>
+      <References>
+        <Reference Name="mscorlib" AssemblyName="mscorlib" HintPath="mscorlib.dll" />
+        <Reference Name="System" AssemblyName="System" HintPath="System.dll" />
+        <Reference Name="System.Data" AssemblyName="System.Data" HintPath="System.Data.dll" />
+        <Reference Name="System.Drawing" AssemblyName="System.Drawing" HintPath="System.Drawing.dll" />
+        <Reference Name="Maticsoft.DBUtility" AssemblyName="Maticsoft.DBUtility" HintPath="Maticsoft.DBUtility.dll" />
+        <Reference Name="System.Web" AssemblyName="System.Web" HintPath="System.Web.dll" />
+        <Reference Name="System.Xml" AssemblyName="System.Xml" HintPath="System.Xml.dll" />
+        <Reference Name="System.Windows.Forms" AssemblyName="System.Windows.Forms" HintPath="System.Windows.Forms.dll" />
+        <Reference Name="System.Configuration" AssemblyName="System.Configuration" HintPath="System.Configuration.dll" />
+        <Reference Name="Maticsoft.Json" AssemblyName="Maticsoft.Json" HintPath="Maticsoft.Json.dll" />
+      </References>
+    </Build>
+    <Files>
+      <Include>
+        <File RelPath="AssemblyInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Video\Ku6Info.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\SystemInfoImport.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\SystemInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Mime\MimeReader.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Mime\MediaTypes.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\MailSender.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\SmtpSetting.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\SmtpConfig.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\FormulaCalculator.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\Cookies.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\WaterMark.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\PageLoader.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Mail\Pop3State.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Mail\Pop3ListItem.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Mail\Pop3Command!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Mail\NoopCommand.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.DEncrypt\RSACryption.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.DEncrypt\DEncrypt.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="VideoEncoder\QuickAudioEncodingCommands.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="VideoEncoder\EncodedVideo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\ImageTools.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\MakeThumbnailMode.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\Pagination.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\Config.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Mail\TopCommand.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Mail\Pop3Response.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Mail\RetrResponse.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Mail\Pop3Commands.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Mail\ConnectResponse.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\UploadEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\DownloadEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\WebClient.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\MultipartForm.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Video\ConvertVideo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\SqlExecutor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\DBServerType.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\PageValidate.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Mail\QuitCommand.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Video\TuDouInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Mail\UserCommand.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\DataConversion.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\ConfigHelper.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\MessageBox.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Mail\Stat.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Mail\MailMessageEx.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\Globals.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\DataSetTools.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\DataCache.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Video\YouKuInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="VideoEncoder\QuickVideoEncodingCommands.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\EnumFormula.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\FormulaDeal.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.DEncrypt\HashEncode.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.DEncrypt\DESEncrypt.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.DEncrypt\Hex16.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\UrlOper.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Mail\RsetCommand.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Mail\Pop3Client.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\Formatter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Video\VideoHelper.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Mime\MimeHeaders.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Mail\ConnectCommand.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Mail\StatResponse.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Mail\EmailConvert.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\TreeBind.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Mail\PassCommand.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Mail\ListResponse.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Mail\RetrCommand.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.DEncrypt\GZip.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\DataTableTools.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Video\VideoModel.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\TimeParser.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Mail\StatCommand.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Mail\Pop3Exception.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\FileManage.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\XmlHelper.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\StringPlus.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\PinyinHelper.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Mail\ListCommand.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\FastInvoke.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Video\SwapSequenceIndex.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="VideoEncoder\VideoFile.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\Rmb.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Mime\QuotedPrintableEncoding.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Mime\MimeEntity.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="VideoEncoder\EncodeProgressEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="VideoEncoder\EncodeFinishedEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="VideoEncoder\EncodeProgressEventHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="VideoEncoder\EncodeFinishedEventHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="VideoEncoder\Encoder.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Mail\Pop3Responses.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Mail\MailHeaders.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\MailPoper.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\PopSetting.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\PopConfig.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\INIFile.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common.Mail\DeleCommand.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\InjectionFilter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Common\ComparerFactroy!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="_PrivateImplementationDetails_{6ABAD00A-513D-4FDC-BAF7-5CD83FF4C8F5}.cs" SubType="Code" BuildAction="Compile" />
+      </Include>
+    </Files>
+  </CSHARP>
+</VisualStudioProject>

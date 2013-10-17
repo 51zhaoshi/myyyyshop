@@ -1,0 +1,186 @@
+<VisualStudioProject>
+  <CSHARP ProjectType="Local" ProductVersion="7.10.3077" SchemaVersion="2.0" ProjectGuid="61ACBA8A-6FB6-4AAB-9BC6-3C4FEB425AC8">
+    <Build>
+      <Settings ApplicationIcon="" AssemblyKeyContainerName="" AssemblyName="Microsoft.Practices.EnterpriseLibrary.Common" AssemblyOriginatorKeyFile="" DefaultClientScript="JScript" DefaultHTMLPageLayout="Grid" DefaultTargetSchema="IE50" DelaySign="false" OutputType="Library" PreBuildEvent="" PostBuildEvent="" RootNamespace="Microsoft.Practices.EnterpriseLibrary.Common" RunPostBuildEvent="OnBuildSuccess" StartupObject="">
+        <Config Name="Debug" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="DEBUG;TRACE" DocumentationFile="" DebugSymbols="true" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="false" OutputPath="bin\Debug\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+        <Config Name="Release" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="TRACE" DocumentationFile="" DebugSymbols="false" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="true" OutputPath="bin\Release\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+      </Settings>
+      <References>
+        <Reference Name="mscorlib" AssemblyName="mscorlib" HintPath="mscorlib.dll" />
+        <Reference Name="System.Configuration" AssemblyName="System.Configuration" HintPath="System.Configuration.dll" />
+        <Reference Name="System" AssemblyName="System" HintPath="System.dll" />
+        <Reference Name="System.Xml" AssemblyName="System.Xml" HintPath="System.Xml.dll" />
+        <Reference Name="System.Management" AssemblyName="System.Management" HintPath="System.Management.dll" />
+        <Reference Name="Microsoft.Practices.ObjectBuilder" AssemblyName="Microsoft.Practices.ObjectBuilder" HintPath="Microsoft.Practices.ObjectBuilder.dll" />
+        <Reference Name="System.Configuration.Install" AssemblyName="System.Configuration.Install" HintPath="System.Configuration.Install.dll" />
+      </References>
+    </Build>
+    <Files>
+      <Include>
+        <File RelPath="AssemblyInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Instrumentation\IPerformanceCounterNameFormatter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Instrumentation\AppDomainNameFormatter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Instrumentation\EnterpriseLibraryPerformanceCounter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Instrumentation\EventBinder.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Instrumentation\InstrumentationBaseAttribute.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Instrumentation\InstrumentationConsumerAttribute.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Instrumentation\InstrumentationListenerAttribute.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Instrumentation\InstrumentationProviderAttribute.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Instrumentation\HasInstallableResourcesAttribute.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Instrumentation\PerformanceCounterAttribute.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Instrumentation\ReflectionInstrumentationBinder.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Instrumentation\NoPrefixNameFormatter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Properties\Resources.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\AssemblyQualifiedTypeNameConverter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\BaseFileConfigurationSourceImplementation.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\ByteArrayTypeConverter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\ConfigurationSourceWatcher.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\ConfigurationFileSourceWatcher.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\IObjectWithName.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\NamedConfigurationElement.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\IObjectWithNameAndType.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\NameTypeConfigurationElement.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\ConfigurationSourceElement.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\ConfigurationSourceFactory.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\SerializableConfigurationSection.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\ConfigurationSourceSection.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\ConfigurationChangedEventHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\ConfigurationChangedEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\ConfigurationChangingEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\ConfigurationChangingEventHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\ConfigurationElementTypeAttribute.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\ConfigurationFileChangedEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\ConfigurationFileChangingEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\CustomProviderDataHelper!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\IConfigurationSource.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\DictionaryConfigurationSource.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\IConfigurationParameter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\FileConfigurationParameter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\IProtectedConfigurationSource.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\FileConfigurationSource.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\FileConfigurationSourceElement.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\FileConfigurationSourceImplementation.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\GenericEnumeratorWrapper!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\ICustomProviderData.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\IHelperAssistedCustomConfigurationData!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability.Adm\AdmCategory.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability.Adm\AdmPart.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability.Adm\AdmCheckboxPart.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability.Adm\AdmEditTextPart.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability.Adm\AdmComboBoxPart.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability.Adm\AdmContent.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability.Adm\AdmContentBuilder.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability.Adm\AdmDropDownListItem.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability.Adm\AdmDropDownListPart.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability.Adm\AdministrativeTemplateGenerator.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability.Adm\AdmNumericPart.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability.Adm\AdmPolicy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability.Adm\AdmTextPart.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\ConfigurationChangeNotificationCoordinator.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\ConfigurationChangeWatcherCoordinator.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\ConfigurationElementManageabilityProvider.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\ConfigurationElementManageabilityProviderAttribute.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\ConfigurationElementManageabilityProviderBase!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\IConfigurationAccessor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\ConfigurationInstanceConfigurationAccessor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\ConfigurationManageabilityProviderAttributeRetriever.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\ConfigurationSectionManageabilityProvider.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\ConfigurationSectionManageabilityProviderAttribute.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\ConfigurationSectionManageabilityProviderBase!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability.Configuration\ConfigurationElementManageabilityProviderData.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability.Configuration\ConfigurationSectionManageabilityProviderData.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability.Configuration\ManageableConfigurationSourceElement.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\CustomProviderDataManageabilityProvider!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\IGroupPolicyWatcher.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\GroupPolicyWatcher.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\GroupPolicyUpdateDelegate.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\IManageabilityHelper.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\ImplementationKey.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\ImplementationKeyComparer.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Instrumentation\CommonWmiInstaller.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\Installer.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\InstrumentationConfigurationSectionManageabilityProvider.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\IWmiPublisher.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\InstrumentationWmiPublisher.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\IRegistryAccessor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\IRegistryKey.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\KeyValuePairEncoder.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\KeyValuePairParser.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\ManageabilityExtensionsLogger.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\ManageabilityHelper.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\ManageableConfigurationSource.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\ManageableConfigurationSourceImplementation.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\ManageableConfigurationSourceSingletonHelper.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\NativeMethods.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability.Properties\Resources.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\RegistryAccessException.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\RegistryAccessor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\RegistryKeyBase.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\RegistryKeyWrapper.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\ConfigurationSetting.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\InstrumentationSetting.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability\NamedConfigurationSetting.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\NamedElementCollection!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\PolymorphicConfigurationElementCollection!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\NameTypeConfigurationElementCollection!2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\NullConfigurationSource.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.ObjectBuilder\AssemblerAttribute.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.ObjectBuilder\AssemblerBasedObjectFactory!2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.ObjectBuilder\ICustomFactory.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.ObjectBuilder\AssemblerBasedCustomFactory!2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.ObjectBuilder\ConfigurationReflectionCache.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.ObjectBuilder\PairKey!2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.ObjectBuilder\IAssembler!2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.ObjectBuilder\CustomProviderAssembler!3.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.ObjectBuilder\CustomFactoryAttribute.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.ObjectBuilder\IInstrumentationAttacher.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.ObjectBuilder\ExplicitInstrumentationAttacher.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.ObjectBuilder\IReflectionCachePolicy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.ObjectBuilder\ReflectionCachePolicy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.ObjectBuilder\ReflectionInstrumentationAttacher.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.ObjectBuilder\InstrumentationAttacherFactory.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.ObjectBuilder\NoBindingInstrumentationAttacher.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.ObjectBuilder\LocatorNameTypeFactoryBase!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.ObjectBuilder\EnterpriseLibraryFactory.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.ObjectBuilder\ConfigurationNameMapperAttribute.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.ObjectBuilder\EnterpriseLibraryBuilderStrategy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.ObjectBuilder\ConfigurationNameMappingStrategy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.ObjectBuilder\ConfigurationNameProvider.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.ObjectBuilder\IConfigurationObjectPolicy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.ObjectBuilder\ConfigurationObjectPolicy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.ObjectBuilder\ConfiguredObjectStrategy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.ObjectBuilder\IConfigurationNameMapper.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.ObjectBuilder\InstrumentationAttachmentStrategy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.ObjectBuilder\InstrumentationStrategy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.ObjectBuilder\NameTypeFactoryBase!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.ObjectBuilder\TypeInstantiationAssembler!2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Storage\IConfigurationChangeWatcher.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Storage\ConfigurationChangeWatcher.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Storage\ConfigurationChangeFileWatcher.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Storage\ConfigurationChangeWatcherPauser.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\SystemConfigurationSource.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\SystemConfigurationSourceElement.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration\SystemConfigurationSourceImplementation.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Instrumentation\AbstractInstallerBuilder.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Instrumentation.Configuration\InstrumentationConfigurationSection.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Instrumentation\DefaultEventLoggerCustomFactoryBase.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Instrumentation\EnterpriseLibraryPerformanceCounterFactory.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Instrumentation\EventLogDefinitionAttribute.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Instrumentation\IEventLogEntryFormatter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Instrumentation\EventLogEntryFormatter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Instrumentation\EventLogInstallerBuilder.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Instrumentation\IInstrumentationEventProvider.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Instrumentation\IExplicitInstrumentationBinder.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Instrumentation\InstrumentationListener.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Instrumentation\PerformanceCounterInstallerBuilder.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Instrumentation\PerformanceCounterInstanceName.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Instrumentation\PerformanceCountersDefinitionAttribute.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Instrumentation\ReflectionInstaller!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Instrumentation\BaseWmiEvent.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common\ResourceStringLoader.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Configuration.Manageability.Properties.Resources.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Common.Properties.Resources.resx" BuildAction="EmbeddedResource" />
+      </Include>
+    </Files>
+  </CSHARP>
+</VisualStudioProject>

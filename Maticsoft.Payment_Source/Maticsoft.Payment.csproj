@@ -1,0 +1,114 @@
+<VisualStudioProject>
+  <CSHARP ProjectType="Local" ProductVersion="7.10.3077" SchemaVersion="2.0" ProjectGuid="223B467E-F5C5-4CB7-B022-035DDC749F79">
+    <Build>
+      <Settings ApplicationIcon="" AssemblyKeyContainerName="" AssemblyName="Maticsoft.Payment" AssemblyOriginatorKeyFile="" DefaultClientScript="JScript" DefaultHTMLPageLayout="Grid" DefaultTargetSchema="IE50" DelaySign="false" OutputType="Library" PreBuildEvent="" PostBuildEvent="" RootNamespace="Maticsoft.Payment" RunPostBuildEvent="OnBuildSuccess" StartupObject="">
+        <Config Name="Debug" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="DEBUG;TRACE" DocumentationFile="" DebugSymbols="true" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="false" OutputPath="bin\Debug\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+        <Config Name="Release" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="TRACE" DocumentationFile="" DebugSymbols="false" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="true" OutputPath="bin\Release\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+      </Settings>
+      <References>
+        <Reference Name="mscorlib" AssemblyName="mscorlib" HintPath="mscorlib.dll" />
+        <Reference Name="System.Web" AssemblyName="System.Web" HintPath="System.Web.dll" />
+        <Reference Name="System.Web.Mvc" AssemblyName="System.Web.Mvc" HintPath="System.Web.Mvc.dll" />
+        <Reference Name="System" AssemblyName="System" HintPath="System.dll" />
+        <Reference Name="System.Xml" AssemblyName="System.Xml" HintPath="System.Xml.dll" />
+        <Reference Name="Microsoft.Practices.EnterpriseLibrary.Data" AssemblyName="Microsoft.Practices.EnterpriseLibrary.Data" HintPath="Microsoft.Practices.EnterpriseLibrary.Data.dll" />
+        <Reference Name="System.Data" AssemblyName="System.Data" HintPath="System.Data.dll" />
+        <Reference Name="System.Configuration" AssemblyName="System.Configuration" HintPath="System.Configuration.dll" />
+      </References>
+    </Build>
+    <Files>
+      <Include>
+        <File RelPath="AssemblyInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Core\NotifyQuery.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.IPS\IpsNotify.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Model\PayeeInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Model\ShippingStatus.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Handler\SendPaymentHandlerBase!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Web\RechargeReturnTemplatedPage!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Web\RechargeReturn!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Model\SortAction.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.YeePay\Digest.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.Ipay\IpayNotify.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.AlipayAssure\AlipayAssureNotify.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Model\RefundStatus.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Web\RechargeReturnTemplatedPage.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Model\IPaymentOption!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.BLL\PaymentModeManage.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.TenpayAssure\Globals.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Core\PaymentRequest.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.Paypal\PaypalRequest.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.IPSExpress\IpsExpressRequest.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.Bill99\Bill99Notify.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.Allbuy\AllbuyNotify.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Configuration\PayConfiguration.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Model\PaymentModeActionStatus.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Model\IRechargeRequest.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Model\BalanceDetailInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment\OrderProcessor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Model\PaymentStatus.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Model\TradeTypes.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Model\IOrderInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.Ipay\IpayRequest.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.Cncard\CncardRequest.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Model\OrderActions.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.YeePay\YeepayRequest.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.Tenpay\Globals.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.AlipayDirect\Globals.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.Chinabank\ChinabankNotify.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Model\IRechargeOption!2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Model\IRechargeOption.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.IPSExpress\IpsExpressNotify.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.Bill99\Bill99Request.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.Allbuy\AllbuyRequest.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.AlipayDirect\DirectRequest.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Handler\NotifyEventHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment\ShoppingProcessor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.Alipay\AlipayNotify.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Model\IUserInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Model\DataProviderAction.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Configuration\WebConfigHelper.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Model\UserInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Handler\PaymentReturnHandlerBase!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.DAL\PaymentModeService.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Core\Globals.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Web\PaymentReturnTemplatedController!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.YeePay\Buy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.TenpayAssure\TenpayAssureRequest.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.TenpayAssure\TenpayAssureNotify.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Model\PaymentModeInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Model\OrderStatus.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Model\CurrencyInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Model\AccountSummaryInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Handler\SendRechargeHandlerBase!2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Handler\SendRechargeHandlerBase.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.YeePay\YeepayNotify.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.ShengPay\ShengPayRequest.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.ShengPay\ShengPayNotify.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.AlipayDirect\AlipayDirectNotify.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.AlipayAssure\Globals.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Configuration\GatewayProvider.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.Alipay\Globals.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Handler\RechargeReturnHandlerBase!2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Handler\RechargeReturnHandlerBase.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Core\MsCryptographer.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.Paypal\PaypalNotify.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Model\TradeInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Web\RechargeReturnTemplatedController!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Web\RechargeReturnTemplatedController.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Web\RechargeNotify!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Core\DataCache.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.YeePay\HmacMD5.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.Tenpay\TenpayRequest.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.Chinabank\ChinabankRequest.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Web\PaymentReturnTemplatedPage!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.Cncard\CncardNotify.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.AlipayAssure\AssureRequest.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.Alipay\StandardRequest.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.Tenpay\TenpayNotify.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.PaymentInterface.IPS\IpsRequest.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Model\GatewayInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Payment.Model\RechargeRequestInfo.cs" SubType="Code" BuildAction="Compile" />
+      </Include>
+    </Files>
+  </CSHARP>
+</VisualStudioProject>

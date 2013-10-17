@@ -1,0 +1,48 @@
+<VisualStudioProject>
+  <CSHARP ProjectType="Local" ProductVersion="7.10.3077" SchemaVersion="2.0" ProjectGuid="870D8923-1A5A-4E99-9FFA-7EF2D55C82DD">
+    <Build>
+      <Settings ApplicationIcon="" AssemblyKeyContainerName="" AssemblyName="Microsoft.Web.Infrastructure" AssemblyOriginatorKeyFile="" DefaultClientScript="JScript" DefaultHTMLPageLayout="Grid" DefaultTargetSchema="IE50" DelaySign="false" OutputType="Library" PreBuildEvent="" PostBuildEvent="" RootNamespace="Microsoft.Web.Infrastructure" RunPostBuildEvent="OnBuildSuccess" StartupObject="">
+        <Config Name="Debug" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="DEBUG;TRACE" DocumentationFile="" DebugSymbols="true" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="false" OutputPath="bin\Debug\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+        <Config Name="Release" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="TRACE" DocumentationFile="" DebugSymbols="false" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="true" OutputPath="bin\Release\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+      </Settings>
+      <References>
+        <Reference Name="mscorlib" AssemblyName="mscorlib" HintPath="mscorlib.dll" />
+        <Reference Name="System" AssemblyName="System" HintPath="System.dll" />
+        <Reference Name="System.Web" AssemblyName="System.Web" HintPath="System.Web.dll" />
+        <Reference Name="System.Configuration" AssemblyName="System.Configuration" HintPath="System.Configuration.dll" />
+        <Reference Name="System.Core" AssemblyName="System.Core" HintPath="System.Core.dll" />
+      </References>
+    </Build>
+    <Files>
+      <Include>
+        <File RelPath="AssemblyInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Web.Infrastructure\CommonReflectionUtil.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Web.Infrastructure\CommonAssemblies.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Web.Infrastructure.DynamicValidationHelper\FieldAccessor!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Web.Infrastructure.DynamicValidationHelper\LazilyEvaluatedNameObjectEntry.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Web.Infrastructure.DynamicValidationHelper\DeferredCountArrayList.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Web.Infrastructure.DynamicValidationHelper\ReadOnlyNameValueCollection.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Web.Infrastructure\ModuleInitializer.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Web.Infrastructure\KillBitHelper.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Web.Infrastructure\IRegistryKey.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Web.Infrastructure\RegistryKeyWrapper.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Web.Infrastructure.DynamicModuleHelper\DynamicModuleRegistryEntry.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Web.Infrastructure.DynamicModuleHelper\DynamicModuleReflectionUtil.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Web.Infrastructure.DynamicModuleHelper\DynamicModuleUtility.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Web.Infrastructure.DynamicModuleHelper\IntegratedDynamicModule.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Web.Infrastructure.DynamicValidationHelper\GetUnvalidatedCollectionsCallback.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Web.Infrastructure.DynamicValidationHelper\DynamicValidationShimReflectionUtil.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Web.Infrastructure.DynamicValidationHelper\GranularValidationReflectionUtil.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Web.Infrastructure.DynamicValidationHelper\NameObjectEntryWrapper.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Web.Infrastructure.DynamicValidationHelper\SimpleValidateStringCallback.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Web.Infrastructure.DynamicValidationHelper\ValidateStringCallback.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Web.Infrastructure.DynamicValidationHelper\LazilyValidatingArrayList.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Web.Infrastructure.DynamicValidationHelper\LazilyValidatingHashtable.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Web.Infrastructure.DynamicValidationHelper\ValidationSourceFlag.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Web.Infrastructure.DynamicValidationHelper\ValidationUtility.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Web.Infrastructure\HttpContextHelper.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Web.Infrastructure\InfrastructureHelper.cs" SubType="Code" BuildAction="Compile" />
+      </Include>
+    </Files>
+  </CSHARP>
+</VisualStudioProject>

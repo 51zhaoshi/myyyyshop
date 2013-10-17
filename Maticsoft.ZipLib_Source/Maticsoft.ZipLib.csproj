@@ -1,0 +1,127 @@
+<VisualStudioProject>
+  <CSHARP ProjectType="Local" ProductVersion="7.10.3077" SchemaVersion="2.0" ProjectGuid="81D0B755-0B47-4168-A7E5-DFBAD66FC875">
+    <Build>
+      <Settings ApplicationIcon="" AssemblyKeyContainerName="" AssemblyName="Maticsoft.ZipLib" AssemblyOriginatorKeyFile="" DefaultClientScript="JScript" DefaultHTMLPageLayout="Grid" DefaultTargetSchema="IE50" DelaySign="false" OutputType="Library" PreBuildEvent="" PostBuildEvent="" RootNamespace="Maticsoft.ZipLib" RunPostBuildEvent="OnBuildSuccess" StartupObject="">
+        <Config Name="Debug" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="DEBUG;TRACE" DocumentationFile="" DebugSymbols="true" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="false" OutputPath="bin\Debug\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+        <Config Name="Release" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="TRACE" DocumentationFile="" DebugSymbols="false" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="true" OutputPath="bin\Release\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+      </Settings>
+      <References>
+        <Reference Name="mscorlib" AssemblyName="mscorlib" HintPath="mscorlib.dll" />
+        <Reference Name="System" AssemblyName="System" HintPath="System.dll" />
+      </References>
+    </Build>
+    <Files>
+      <Include>
+        <File RelPath="AssemblyInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Core\INameTransform.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Core\IScanFilter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Core\PathFilter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Core\ExtendedPathFilter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Core\NameAndSizeFilter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib\SharpZipBaseException.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.BZip2\BZip2OutputStream.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip.Compression.Streams\DeflaterOutputStream.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.GZip\GZipOutputStream.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\HostSystemID.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\ZipEntry.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Core\StreamUtils.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.GZip\GZipException.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip.Compression.Streams\InflaterInputBuffer.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip.Compression.Streams\InflaterInputStream.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip.Compression\DeflaterConstants.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Tar\ProgressMessageHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Tar\TarArchive.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Checksums\IChecksum.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Checksums\Crc32.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Checksums\Adler32.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Core\WindowsPathUtils.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\FastZipEvents.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\FastZip.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Tar\TarException.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.GZip\GZipConstants.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Core\ScanEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Core\ProgressEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Core\DirectoryEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Core\ScanFailureEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Core\ProcessDirectoryHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Core\ProcessFileHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Core\ProgressHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Core\CompletedFileHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Core\DirectoryFailureHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Core\FileFailureHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Core\FileSystemScanner.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.BZip2\BZip2Exception.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Tar\TarHeader.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\IEntryFactory.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\ZipEntryFactory.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Tar\TarBuffer.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.BZip2\BZip2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.BZip2\BZip2Constants.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\ZipInputStream.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip.Compression\PendingBuffer.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip.Compression\DeflaterPending.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.BZip2\BZip2InputStream.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.GZip\GZipInputStream.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip.Compression\Deflater.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip.Compression\Inflater.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Tar\InvalidHeaderException.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Encryption\PkzipClassic.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Encryption\PkzipClassicCryptoBase.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Encryption\PkzipClassicEncryptCryptoTransform.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Encryption\PkzipClassicDecryptCryptoTransform.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Encryption\PkzipClassicManaged.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\ZipNameTransform.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Checksums\StrangeCRC.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\ITaggedData.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\RawTaggedData.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\ExtendedUnixData.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\NTTaggedData.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\ITaggedDataFactory.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\ZipExtraData.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip.Compression\DeflaterHuffman.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Tar\TarInputStream.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip.Compression\DeflateStrategy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip.Compression\DeflaterEngine.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Tar\TarOutputStream.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\KeysRequiredEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\TestStrategy.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\TestOperation.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\TestStatus.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\ZipTestResultHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\FileUpdateMode.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\ZipFile.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\IStaticDataSource.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\IDynamicDataSource.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\StaticDiskDataSource.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\DynamicDiskDataSource.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\IArchiveStorage.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\BaseArchiveStorage.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\DiskArchiveStorage.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\MemoryArchiveStorage.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Tar\TarEntry.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip.Compression\InflaterDynHeader.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\ZipException.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\DescriptorData.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\EntryPatchData.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\ZipHelperStream.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Core\NameFilter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\UseZip64.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\CompressionMethod.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\EncryptionAlgorithm.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\GeneralBitFlags.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\ZipConstants.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib\CompressionType.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib\CompressionHelper.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\WindowsNameTransform.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip.Compression.Streams\OutputWindow.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip.Compression\InflaterHuffmanTree.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip.Compression.Streams\StreamManipulator.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Zip\ZipOutputStream.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib\ZipHelper.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Encryption\ZipAESTransform.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ZipLib.Encryption\ZipAESStream.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="_PrivateImplementationDetails_{A8BEE68C-BF0F-44A0-8542-38B8F6031C1C}.cs" SubType="Code" BuildAction="Compile" />
+      </Include>
+    </Files>
+  </CSHARP>
+</VisualStudioProject>

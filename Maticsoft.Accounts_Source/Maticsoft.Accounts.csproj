@@ -1,0 +1,56 @@
+<VisualStudioProject>
+  <CSHARP ProjectType="Local" ProductVersion="7.10.3077" SchemaVersion="2.0" ProjectGuid="66ABF864-D5DF-48A2-93E7-9CD7D6A49B83">
+    <Build>
+      <Settings ApplicationIcon="" AssemblyKeyContainerName="" AssemblyName="Maticsoft.Accounts" AssemblyOriginatorKeyFile="" DefaultClientScript="JScript" DefaultHTMLPageLayout="Grid" DefaultTargetSchema="IE50" DelaySign="false" OutputType="Library" PreBuildEvent="" PostBuildEvent="" RootNamespace="Maticsoft.Accounts" RunPostBuildEvent="OnBuildSuccess" StartupObject="">
+        <Config Name="Debug" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="DEBUG;TRACE" DocumentationFile="" DebugSymbols="true" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="false" OutputPath="bin\Debug\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+        <Config Name="Release" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="TRACE" DocumentationFile="" DebugSymbols="false" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="true" OutputPath="bin\Release\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+      </Settings>
+      <References>
+        <Reference Name="mscorlib" AssemblyName="mscorlib" HintPath="mscorlib.dll" />
+        <Reference Name="System.Data" AssemblyName="System.Data" HintPath="System.Data.dll" />
+        <Reference Name="MySql.Data" AssemblyName="MySql.Data" HintPath="MySql.Data.dll" />
+        <Reference Name="System.Web" AssemblyName="System.Web" HintPath="System.Web.dll" />
+        <Reference Name="System" AssemblyName="System" HintPath="System.dll" />
+        <Reference Name="System.Configuration" AssemblyName="System.Configuration" HintPath="System.Configuration.dll" />
+      </References>
+    </Build>
+    <Files>
+      <Include>
+        <File RelPath="AssemblyInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts.IData\IRole.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts.MySqlData\Role.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts.IData\IActions.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts.MySqlData\Actions.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts\PubConstant.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts.IData\IPermissionCategory.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts.MySqlData\PermissionCategory.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts.Bus\User.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts.Bus\AccountsPrincipal.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts.Data\Role.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts.IData\IPermission.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts.Data\Permission.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts.Bus\UserType.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts.Data\Actions.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts\DbHelperSQL.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts.Bus\Role.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts.MySqlData\Permission.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts.IData\IUserType.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts.Data\UserType.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts\DataCache.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts.Bus\PermissionCategories.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts\DbHelperMySQL.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts\ConfigHelper.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts.IData\IUser.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts.MySqlData\User.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts.Bus\Actions.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts.Data\PermissionCategory.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts.MySqlData\UserType.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts.Data\User.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts\DESEncrypt.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts.Bus\Permissions.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts.Bus\AccountsTool.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Accounts.Bus\SiteIdentity.cs" SubType="Code" BuildAction="Compile" />
+      </Include>
+    </Files>
+  </CSHARP>
+</VisualStudioProject>

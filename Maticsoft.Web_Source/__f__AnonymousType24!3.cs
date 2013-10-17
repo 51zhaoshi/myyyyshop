@@ -1,0 +1,79 @@
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Runtime.CompilerServices;
+using System.Text;
+
+[CompilerGenerated]
+internal sealed class <>f__AnonymousType24<<controller>j__TPar, <action>j__TPar, <uid>j__TPar>
+{
+    [DebuggerBrowsable(DebuggerBrowsableState.Never)]
+    private readonly <action>j__TPar <action>i__Field;
+    [DebuggerBrowsable(DebuggerBrowsableState.Never)]
+    private readonly <controller>j__TPar <controller>i__Field;
+    [DebuggerBrowsable(DebuggerBrowsableState.Never)]
+    private readonly <uid>j__TPar <uid>i__Field;
+
+    [DebuggerHidden]
+    public <>f__AnonymousType24(<controller>j__TPar controller, <action>j__TPar action, <uid>j__TPar uid)
+    {
+        this.<controller>i__Field = controller;
+        this.<action>i__Field = action;
+        this.<uid>i__Field = uid;
+    }
+
+    [DebuggerHidden]
+    public override bool Equals(object value)
+    {
+        var type = value as <>f__AnonymousType24<<controller>j__TPar, <action>j__TPar, <uid>j__TPar>;
+        return ((((type != null) && EqualityComparer<<controller>j__TPar>.Default.Equals(this.<controller>i__Field, type.<controller>i__Field)) && EqualityComparer<<action>j__TPar>.Default.Equals(this.<action>i__Field, type.<action>i__Field)) && EqualityComparer<<uid>j__TPar>.Default.Equals(this.<uid>i__Field, type.<uid>i__Field));
+    }
+
+    [DebuggerHidden]
+    public override int GetHashCode()
+    {
+        int num = -426423545;
+        num = (-1521134295 * num) + EqualityComparer<<controller>j__TPar>.Default.GetHashCode(this.<controller>i__Field);
+        num = (-1521134295 * num) + EqualityComparer<<action>j__TPar>.Default.GetHashCode(this.<action>i__Field);
+        return ((-1521134295 * num) + EqualityComparer<<uid>j__TPar>.Default.GetHashCode(this.<uid>i__Field));
+    }
+
+    [DebuggerHidden]
+    public override string ToString()
+    {
+        StringBuilder builder = new StringBuilder();
+        builder.Append("{ controller = ");
+        builder.Append(this.<controller>i__Field);
+        builder.Append(", action = ");
+        builder.Append(this.<action>i__Field);
+        builder.Append(", uid = ");
+        builder.Append(this.<uid>i__Field);
+        builder.Append(" }");
+        return builder.ToString();
+    }
+
+    public <action>j__TPar action
+    {
+        get
+        {
+            return this.<action>i__Field;
+        }
+    }
+
+    public <controller>j__TPar controller
+    {
+        get
+        {
+            return this.<controller>i__Field;
+        }
+    }
+
+    public <uid>j__TPar uid
+    {
+        get
+        {
+            return this.<uid>i__Field;
+        }
+    }
+}
+

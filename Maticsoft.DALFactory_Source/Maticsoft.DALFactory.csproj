@@ -1,0 +1,42 @@
+<VisualStudioProject>
+  <CSHARP ProjectType="Local" ProductVersion="7.10.3077" SchemaVersion="2.0" ProjectGuid="0F6CA962-A292-41C0-89DE-1D3C093C96EA">
+    <Build>
+      <Settings ApplicationIcon="" AssemblyKeyContainerName="" AssemblyName="Maticsoft.DALFactory" AssemblyOriginatorKeyFile="" DefaultClientScript="JScript" DefaultHTMLPageLayout="Grid" DefaultTargetSchema="IE50" DelaySign="false" OutputType="Library" PreBuildEvent="" PostBuildEvent="" RootNamespace="Maticsoft.DALFactory" RunPostBuildEvent="OnBuildSuccess" StartupObject="">
+        <Config Name="Debug" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="DEBUG;TRACE" DocumentationFile="" DebugSymbols="true" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="false" OutputPath="bin\Debug\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+        <Config Name="Release" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="TRACE" DocumentationFile="" DebugSymbols="false" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="true" OutputPath="bin\Release\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+      </Settings>
+      <References>
+        <Reference Name="mscorlib" AssemblyName="mscorlib" HintPath="mscorlib.dll" />
+        <Reference Name="Maticsoft.IDAL" AssemblyName="Maticsoft.IDAL" HintPath="Maticsoft.IDAL.dll" />
+        <Reference Name="Maticsoft.Common" AssemblyName="Maticsoft.Common" HintPath="Maticsoft.Common.dll" />
+      </References>
+    </Build>
+    <Files>
+      <Include>
+        <File RelPath="AssemblyInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.DALFactory\DataAccessBase.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.DALFactory\DAMembers.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.DALFactory\DAShopSample.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.DALFactory\DAShopPackage.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.DALFactory\DAPoll.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.DALFactory\DASettings.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.DALFactory\DAShopProducts.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.DALFactory\DAShopOrder.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.DALFactory\DAShopCoupon.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.DALFactory\DAShopProSales.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.DALFactory\DataAccess!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.DALFactory\DASysManage.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.DALFactory\DAShopSales.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.DALFactory\DAShop.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.DALFactory\DAMs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.DALFactory\DAShopShipping.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.DALFactory\DACMS.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.DALFactory\DAShopSupplier.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.DALFactory\DASNS.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.DALFactory\DAShopGifts.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.DALFactory\DAShopInquiry.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.DALFactory\DAPay.cs" SubType="Code" BuildAction="Compile" />
+      </Include>
+    </Files>
+  </CSHARP>
+</VisualStudioProject>

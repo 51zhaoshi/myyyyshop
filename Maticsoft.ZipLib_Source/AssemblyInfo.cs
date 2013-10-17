@@ -1,0 +1,20 @@
+// Assembly Maticsoft.ZipLib, Version 0.86.0.518
+
+[assembly: System.Reflection.AssemblyVersion("0.86.0.518")]
+[assembly: System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute.DebuggingModes.DisableOptimizations | System.Diagnostics.DebuggableAttribute.DebuggingModes.EnableEditAndContinue | System.Diagnostics.DebuggableAttribute.DebuggingModes.IgnoreSymbolStoreSequencePoints | System.Diagnostics.DebuggableAttribute.DebuggingModes.Default)]
+[assembly: System.Reflection.AssemblyProduct("#ZipLibrary")]
+[assembly: System.Runtime.InteropServices.ComVisible(false)]
+[assembly: System.Runtime.CompilerServices.CompilationRelaxations(8)]
+[assembly: System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)]
+[assembly: System.Reflection.AssemblyConfiguration("Release")]
+[assembly: System.Reflection.AssemblyTitle("SharpZipLib for .NET Framework 2.0")]
+[assembly: System.Reflection.AssemblyDescription("")]
+[assembly: System.Runtime.Versioning.TargetFramework(".NETFramework,Version=v4.0", FrameworkDisplayName=".NET Framework 4")]
+[assembly: System.Reflection.AssemblyDefaultAlias("SharpZipLib")]
+[assembly: System.Reflection.AssemblyTrademark("Copyright 2001-2010 Mike Krueger, John Reilly")]
+[assembly: System.Security.AllowPartiallyTrustedCallers]
+[assembly: System.Reflection.AssemblyCopyright("Copyright 2001-2010 Mike Krueger, John Reilly")]
+[assembly: System.Reflection.AssemblyCompany("ICSharpCode.net")]
+[assembly: System.Reflection.AssemblyInformationalVersion("0.86.0")]
+[assembly: System.CLSCompliant(true)]
+

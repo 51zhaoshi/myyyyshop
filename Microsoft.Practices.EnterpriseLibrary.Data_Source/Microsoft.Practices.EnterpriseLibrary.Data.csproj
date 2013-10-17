@@ -1,0 +1,80 @@
+<VisualStudioProject>
+  <CSHARP ProjectType="Local" ProductVersion="7.10.3077" SchemaVersion="2.0" ProjectGuid="F91217D9-6DD3-4EBD-B799-06DA26B7A6CF">
+    <Build>
+      <Settings ApplicationIcon="" AssemblyKeyContainerName="" AssemblyName="Microsoft.Practices.EnterpriseLibrary.Data" AssemblyOriginatorKeyFile="" DefaultClientScript="JScript" DefaultHTMLPageLayout="Grid" DefaultTargetSchema="IE50" DelaySign="false" OutputType="Library" PreBuildEvent="" PostBuildEvent="" RootNamespace="Microsoft.Practices.EnterpriseLibrary.Data" RunPostBuildEvent="OnBuildSuccess" StartupObject="">
+        <Config Name="Debug" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="DEBUG;TRACE" DocumentationFile="" DebugSymbols="true" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="false" OutputPath="bin\Debug\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+        <Config Name="Release" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="TRACE" DocumentationFile="" DebugSymbols="false" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="true" OutputPath="bin\Release\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+      </Settings>
+      <References>
+        <Reference Name="mscorlib" AssemblyName="mscorlib" HintPath="mscorlib.dll" />
+        <Reference Name="Microsoft.Practices.EnterpriseLibrary.Common" AssemblyName="Microsoft.Practices.EnterpriseLibrary.Common" HintPath="Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+        <Reference Name="System.Configuration" AssemblyName="System.Configuration" HintPath="System.Configuration.dll" />
+        <Reference Name="System.Management" AssemblyName="System.Management" HintPath="System.Management.dll" />
+        <Reference Name="System.Data" AssemblyName="System.Data" HintPath="System.Data.dll" />
+        <Reference Name="Microsoft.Practices.ObjectBuilder" AssemblyName="Microsoft.Practices.ObjectBuilder" HintPath="Microsoft.Practices.ObjectBuilder.dll" />
+        <Reference Name="System" AssemblyName="System" HintPath="System.dll" />
+        <Reference Name="System.Data.OracleClient" AssemblyName="System.Data.OracleClient" HintPath="System.Data.OracleClient.dll" />
+        <Reference Name="System.Xml" AssemblyName="System.Xml" HintPath="System.Xml.dll" />
+        <Reference Name="System.Transactions" AssemblyName="System.Transactions" HintPath="System.Transactions.dll" />
+        <Reference Name="System.Configuration.Install" AssemblyName="System.Configuration.Install" HintPath="System.Configuration.Install.dll" />
+      </References>
+    </Build>
+    <Files>
+      <Include>
+        <File RelPath="AssemblyInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data\CachingMechanism.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Configuration\DatabaseAssemblerAttribute.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Configuration\DatabaseSettings.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Configuration\DbProviderMapping.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Configuration\IDatabaseAssembler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Manageability\ConnectionStringSetting.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Manageability\ConnectionStringsManageabilityProvider.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Manageability\DatabaseBlockSetting.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Manageability\DatabaseSettingsManageabilityProvider.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Manageability\Installer.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Manageability\OracleConnectionSetting.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Manageability\OracleConnectionSettingsManageabilityProvider.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Manageability.Properties\Resources.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Manageability\ProviderMappingSetting.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data\DatabaseProviderFactory.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data\GenericDatabaseAssembler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Instrumentation\DataEvent.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Instrumentation\CommandFailedEvent.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Instrumentation\ConnectionFailedEvent.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Instrumentation\DataConfigurationFailureEvent.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Instrumentation\DataInstrumentationListenerBinder.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Instrumentation\DataInstrumentationProvider.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Instrumentation\DefaultDataEventLogger.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Instrumentation\DefaultDataEventLoggerCustomFactory.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Oracle.Configuration\OracleConnectionData.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data\DatabaseCustomFactory.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Oracle.Configuration\OracleConnectionSettings.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Oracle\IOraclePackage.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Oracle.Configuration\OraclePackageData.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data\ConnectionString.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data\Database.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data\DatabaseConfigurationView.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data\DatabaseFactory.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data\DatabaseMapper.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data\GenericDatabase.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Instrumentation\CommandExecutedEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Instrumentation\CommandFailedEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Instrumentation\ConnectionFailedEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Instrumentation\DataInstrumentationInstaller.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Instrumentation\DataInstrumentationListener.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Oracle\OracleDatabase.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Oracle\ParameterTypeRegistry.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Oracle\OracleDatabaseAssembler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Oracle\OracleDataReaderWrapper.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data\ParameterCache.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Sql\SqlDatabase.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Sql\SqlDatabaseAssembler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data\TransactionScopeConnections.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data\UpdateBehavior.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Properties\Resources.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Manageability.Properties.Resources.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="Microsoft.Practices.EnterpriseLibrary.Data.Properties.Resources.resx" BuildAction="EmbeddedResource" />
+      </Include>
+    </Files>
+  </CSHARP>
+</VisualStudioProject>

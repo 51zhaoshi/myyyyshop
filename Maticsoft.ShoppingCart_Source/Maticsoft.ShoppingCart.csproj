@@ -1,0 +1,32 @@
+<VisualStudioProject>
+  <CSHARP ProjectType="Local" ProductVersion="7.10.3077" SchemaVersion="2.0" ProjectGuid="9EFF7075-5F36-4957-8DE6-5C64393C4557">
+    <Build>
+      <Settings ApplicationIcon="" AssemblyKeyContainerName="" AssemblyName="Maticsoft.ShoppingCart" AssemblyOriginatorKeyFile="" DefaultClientScript="JScript" DefaultHTMLPageLayout="Grid" DefaultTargetSchema="IE50" DelaySign="false" OutputType="Library" PreBuildEvent="" PostBuildEvent="" RootNamespace="Maticsoft.ShoppingCart" RunPostBuildEvent="OnBuildSuccess" StartupObject="">
+        <Config Name="Debug" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="DEBUG;TRACE" DocumentationFile="" DebugSymbols="true" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="false" OutputPath="bin\Debug\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+        <Config Name="Release" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="TRACE" DocumentationFile="" DebugSymbols="false" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="true" OutputPath="bin\Release\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+      </Settings>
+      <References>
+        <Reference Name="mscorlib" AssemblyName="mscorlib" HintPath="mscorlib.dll" />
+        <Reference Name="System.Data" AssemblyName="System.Data" HintPath="System.Data.dll" />
+        <Reference Name="System.Web" AssemblyName="System.Web" HintPath="System.Web.dll" />
+        <Reference Name="Maticsoft.Common" AssemblyName="Maticsoft.Common" HintPath="Maticsoft.Common.dll" />
+        <Reference Name="Maticsoft.Json" AssemblyName="Maticsoft.Json" HintPath="Maticsoft.Json.dll" />
+      </References>
+    </Build>
+    <Files>
+      <Include>
+        <File RelPath="AssemblyInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ShoppingCart.Core\ICartProvider!2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ShoppingCart.Core\IDataProvider!2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ShoppingCart.Model\IUserInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ShoppingCart.Model\CartInfo!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ShoppingCart.Model\CartItemInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ShoppingCart.Model\CartItemType.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ShoppingCart.Core\CookieProvider!2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ShoppingCart.Handler\SubmitOrderHandlerBase.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ShoppingCart.Core\DatabaseProviderBase!2.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.ShoppingCart.Core\DatabaseProviderBase.cs" SubType="Code" BuildAction="Compile" />
+      </Include>
+    </Files>
+  </CSHARP>
+</VisualStudioProject>

@@ -1,0 +1,50 @@
+<VisualStudioProject>
+  <CSHARP ProjectType="Local" ProductVersion="7.10.3077" SchemaVersion="2.0" ProjectGuid="ACF810EB-EFBB-44B9-AC8B-492E0C7B820D">
+    <Build>
+      <Settings ApplicationIcon="" AssemblyKeyContainerName="" AssemblyName="Maticsoft.Controls" AssemblyOriginatorKeyFile="" DefaultClientScript="JScript" DefaultHTMLPageLayout="Grid" DefaultTargetSchema="IE50" DelaySign="false" OutputType="Library" PreBuildEvent="" PostBuildEvent="" RootNamespace="Maticsoft.Controls" RunPostBuildEvent="OnBuildSuccess" StartupObject="">
+        <Config Name="Debug" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="DEBUG;TRACE" DocumentationFile="" DebugSymbols="true" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="false" OutputPath="bin\Debug\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+        <Config Name="Release" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="TRACE" DocumentationFile="" DebugSymbols="false" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="true" OutputPath="bin\Release\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+      </Settings>
+      <References>
+        <Reference Name="mscorlib" AssemblyName="mscorlib" HintPath="mscorlib.dll" />
+        <Reference Name="System.Web" AssemblyName="System.Web" HintPath="System.Web.dll" />
+        <Reference Name="System" AssemblyName="System" HintPath="System.dll" />
+        <Reference Name="System.Web.Mvc" AssemblyName="System.Web.Mvc" HintPath="System.Web.Mvc.dll" />
+        <Reference Name="System.Data" AssemblyName="System.Data" HintPath="System.Data.dll" />
+        <Reference Name="System.Core" AssemblyName="System.Core" HintPath="System.Core.dll" />
+        <Reference Name="System.Web.WebPages" AssemblyName="System.Web.WebPages" HintPath="System.Web.WebPages.dll" />
+        <Reference Name="Maticsoft.Common" AssemblyName="Maticsoft.Common" HintPath="Maticsoft.Common.dll" />
+        <Reference Name="System.Drawing" AssemblyName="System.Drawing" HintPath="System.Drawing.dll" />
+        <Reference Name="System.Web.Extensions" AssemblyName="System.Web.Extensions" HintPath="System.Web.Extensions.dll" />
+        <Reference Name="Maticsoft.Payment" AssemblyName="Maticsoft.Payment" HintPath="Maticsoft.Payment.dll" />
+      </References>
+    </Build>
+    <Files>
+      <Include>
+        <File RelPath="AssemblyInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Web.Controls\SortTip.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Controls.MVC\RadioButtonListExtensions.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Controls\StatusMessage.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Controls\SortImageColumn.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Controls\ImageLinkButton.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Controls\DeleteImageLinkButton.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Controls\CheckBoxColumn.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Controls\YesNoRadioButtonList.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Web.Controls\CheckColumnAlign.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Web.Controls\CheckColumnVAlign.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Web.Controls\IGridViewUIText.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Web.Controls\BindEventHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Web.Controls\GridViewExBase.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Controls.MVC\Position.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Controls\ImagePosition.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Controls\IWebControl.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Controls\WebControl.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Controls\FileUploadEx.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Controls\ThumbnailImageConverter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="System.Web.Mvc.Html\ListControlExtensions.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Controls.MVC\CheckBoxListExtensions.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.Controls\PayInterfaceDropDownList.cs" SubType="Code" BuildAction="Compile" />
+      </Include>
+    </Files>
+  </CSHARP>
+</VisualStudioProject>

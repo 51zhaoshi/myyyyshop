@@ -1,0 +1,160 @@
+<VisualStudioProject>
+  <CSHARP ProjectType="Local" ProductVersion="7.10.3077" SchemaVersion="2.0" ProjectGuid="1939B359-66BC-441B-8F9F-4CB9893BB3F1">
+    <Build>
+      <Settings ApplicationIcon="" AssemblyKeyContainerName="" AssemblyName="Maticsoft.OAuth" AssemblyOriginatorKeyFile="" DefaultClientScript="JScript" DefaultHTMLPageLayout="Grid" DefaultTargetSchema="IE50" DelaySign="false" OutputType="Library" PreBuildEvent="" PostBuildEvent="" RootNamespace="Maticsoft.OAuth" RunPostBuildEvent="OnBuildSuccess" StartupObject="">
+        <Config Name="Debug" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="DEBUG;TRACE" DocumentationFile="" DebugSymbols="true" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="false" OutputPath="bin\Debug\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+        <Config Name="Release" AllowUnsafeBlocks="false" BaseAddress="285212672" CheckForOverflowUnderflow="false" ConfigurationOverrideFile="" DefineConstants="TRACE" DocumentationFile="" DebugSymbols="false" FileAlignment="4096" IncrementalBuild="false" NoStdLib="false" NoWarn="" Optimize="true" OutputPath="bin\Release\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="4" />
+      </Settings>
+      <References>
+        <Reference Name="mscorlib" AssemblyName="mscorlib" HintPath="mscorlib.dll" />
+        <Reference Name="System" AssemblyName="System" HintPath="System.dll" />
+        <Reference Name="System.Xml" AssemblyName="System.Xml" HintPath="System.Xml.dll" />
+        <Reference Name="Maticsoft.Json" AssemblyName="Maticsoft.Json" HintPath="Maticsoft.Json.dll" />
+        <Reference Name="System.Data" AssemblyName="System.Data" HintPath="System.Data.dll" />
+        <Reference Name="System.Runtime.Serialization" AssemblyName="System.Runtime.Serialization" HintPath="System.Runtime.Serialization.dll" />
+        <Reference Name="System.ServiceModel" AssemblyName="System.ServiceModel" HintPath="System.ServiceModel.dll" />
+        <Reference Name="System.Web" AssemblyName="System.Web" HintPath="System.Web.dll" />
+        <Reference Name="System.Xml.Linq" AssemblyName="System.Xml.Linq" HintPath="System.Xml.Linq.dll" />
+      </References>
+    </Build>
+    <Files>
+      <Include>
+        <File RelPath="AssemblyInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth\IServiceProvider!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.v2\IOAuth2ServiceProvider!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.v2\AbstractOAuth2ServiceProvider!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Client.Interceptor\IClientHttpRequestInterceptor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Client.Interceptor\IClientHttpRequestBeforeInterceptor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.v1\OAuth1RequestInterceptor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.v1\IOAuth1ServiceProvider!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.v1\AbstractOAuth1ServiceProvider!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.v2\IOAuth2Operations.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.v2\OAuth2Template.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Tencent.Weibo\WeiboOAuth2Template.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth\IApiBinding.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Tencent.QQ\IQConnect.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.IO\IResource.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.IO\StreamResource.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Converters\HttpMessageConversionException.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Converters\HttpMessageNotWritableException.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Converters\HttpMessageNotReadableException.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Converters\IHttpMessageConverter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Converters\AbstractHttpMessageConverter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Converters.Xml\AbstractXmlHttpMessageConverter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Converters.Feed\AbstractFeedHttpMessageConverter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Converters.Feed\Rss20FeedHttpMessageConverter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Client.Interceptor\IClientHttpRequestFactoryCreation.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth\Denglu.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.v1\IOAuth1Operations.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.v1\OAuth1Template.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Rest.Client\IResponseExtractor!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Rest.Client.Support\AllowHeaderResponseExtractor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Rest.Client\IRequestCallback.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Rest.Client.Support\AcceptHeaderRequestCallback.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Json\JsonMapper.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.IO\AbstractResource.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.IO\FileResource.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.v1\SigningSupport.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.v1\OAuth1Version.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.v1\OAuth1Parameters.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Rest.Client.Support\RestAsyncOperationState!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.IO\ByteArrayResource.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Converters.Xml\XmlDocumentHttpMessageConverter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Converters.Json\MsJsonHttpMessageConverter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Client.Interceptor\BasicSigningRequestInterceptor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth\Provider.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.v2\OAuth2RequestInterceptor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.v2\AccessGrant.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Json\JsonValue.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Json\JsonObject.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.IO\AssemblyResource.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Client.Interceptor\IClientHttpRequestAsyncInterceptor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Sina\WeiboServiceProvider.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Rest.Client\IRestOperations.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http\MediaType.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http\HttpUtils.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.v1\AbstractOAuth1ApiBinding.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Util\StringUtils.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Tencent.QQ\QConnectServiceProvider.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Rest.Client.Support\HttpMessageResponseExtractor!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Rest.Client\RestClientException.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Rest.Client\HttpResponseException.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Rest.Client\HttpServerErrorException.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Converters.Xml\XmlSerializableHttpMessageConverter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http\IHttpInputMessage.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Client\IClientHttpResponse.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Client\WebClientHttpResponse.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Client\IClientHttpRequestFactory.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Client\WebClientHttpRequestFactory.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.v2\GrantType.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Util\UriTemplate.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Converters.Json\TextJsonHttpMessageConverter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Tencent.QQ.Converters\OpenIdJsonHttpMessageConverter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.v2\AbstractOAuth2ApiBinding.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Tencent.QQ\QConnectTemplate.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http\HttpResponseMessage.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http\HttpHeaders.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Converters\StringHttpMessageConverter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Converters\ByteArrayHttpMessageConverter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Client.Interceptor\IClientHttpRequestContext.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth\Parameter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth\ParameterComparer.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http\HttpEntity.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Converters\FormHttpMessageConverter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http\IHttpOutputMessage.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Client.Interceptor\IClientHttpRequestAsyncExecution.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.v1\AuthorizedRequestToken.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Util\IoUtils.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Tencent.Weibo\IWeibo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Sina\IWeibo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Sina\WeiboTemplate.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Converters.Xml\DataContractHttpMessageConverter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Client.Interceptor\IClientHttpRequestFactoryInterceptor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Client\ClientHttpRequestCompletedEventArgs.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Tencent.Weibo\WeiboServiceProvider.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Converters.Xml\XElementHttpMessageConverter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Client\IClientHttpRequest.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Client\WebClientHttpRequest.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Client.Interceptor\IClientHttpResponseAsyncContext.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Client.Interceptor\IClientHttpRequestSyncExecution.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Rest.Client.Support\HeadersResponseExtractor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Rest.Client\RestOperationCanceler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http\HttpMethod.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Converters.Json\DataContractJsonHttpMessageConverter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Converters.Json\JsonHttpMessageConverter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Rest.Client\RestTemplate.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Converters\ResourceHttpMessageConverter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Converters\FileInfoHttpMessageConverter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Client.Interceptor\InterceptingClientHttpRequest.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth\DengluException.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Tencent.QQ\QConnectOpenIdTemplate.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Rest.Client.Support\HttpMessageResponseExtractor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Json\JsonException.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.v1\OAuthToken.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Sina\WeiboOAuth2Template.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Rest.Client\IResponseErrorHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Rest.Client.Support\DefaultResponseErrorHandler.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Json\IJsonSerializer.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Json\IJsonDeserializer.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http\HttpResponseMessage!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Converters.Feed\Atom10FeedHttpMessageConverter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Client.Interceptor\IClientHttpRequestSyncInterceptor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Util\ArgumentUtils.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Tencent.Weibo\WeiboTemplate.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Rest.Client.Support\LocationHeaderResponseExtractor.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Rest.Client.Support\HttpEntityRequestCallback.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Converters.Json\SpringJsonHttpMessageConverter.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Http.Client.Interceptor\InterceptingClientHttpRequestFactory.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.v2\OAuth2Parameters.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Tencent.QQ\QConnectOAuth2Template.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Rest.Client.Support\MessageConverterResponseExtractor!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Rest.Client\RestOperationCompletedEventArgs!1.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Json\JsonArray.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth\SocialException.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.v2\OAuth2Version.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Maticsoft.OAuth.Rest.Client\HttpClientErrorException.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="_PrivateImplementationDetails_{DBF72F78-FBCD-4FCA-8AF0-2D1876D2684B}.cs" SubType="Code" BuildAction="Compile" />
+      </Include>
+    </Files>
+  </CSHARP>
+</VisualStudioProject>
